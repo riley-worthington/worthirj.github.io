@@ -1,0 +1,16 @@
+
+html {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  background-color: #deeff5;
+}
+
+html, body, .container {
+    height: 100%;
+}
+.container {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
