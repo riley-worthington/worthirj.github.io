@@ -1,16 +1,136 @@
+@font-face {
+  font-family: futura-pt-bold;
+  src: url("futura-pt-bold.otf") format("opentype");
+}
 
 html {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-size: 16px;
-  background-color: #deeff5;
+  background-color: white;
 }
 
-html, body, .container {
-    height: 100%;
+body, html {
+  height: 100%;
+  margin: 0;
 }
-.container {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+body {
+  background-image: url("../images/IMG_3276.JPG");
+
+    /* Full height */
+  height: 100%;
+
+    /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pages {
+
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.pages a {
+  font-family: 'futura-pt-bold';
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 64px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.pages a:hover {
+  color: #ccac00;
+  transition: .3s;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 60px;
+  padding-top: 30px;
+}
+
+.socials img {
+  margin-bottom: 20px;
+  width: 90px;
+  height: auto;
+  transition: .3s;
+}
+
+.socials img:hover {
+  filter: brightness(0) invert(1) invert(.4);
+  transition: .3s;
+}
+
+#git {
+  filter: brightness(0) invert(1);
+  transition: .3s;
+}
+
+#git:hover {
+  filter: brightness(0) invert(1) invert(.4);
+  transition: .3s;
+}
+
+#in {
+  filter: brightness(0) invert(1);
+  transition: .3s;
+}
+
+#in:hover {
+  filter: brightness(0) invert(1) invert(.4);
+  transition: .3s;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  /* margin-top: auto; */
+}
+
+.nametag {
+  margin-bottom: 40px;
+  margin-right: 60px;
+}
+
+.nametag a {
+  color: white;
+  font-family: 'futura';
+  font-weight: bold;
+  font-size: 94px;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  color: white;
+  font-family: 'futura';
+  font-size: 16px;
 }

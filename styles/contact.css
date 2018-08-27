@@ -1,0 +1,129 @@
+@font-face {
+  font-family: futura-pt-bold;
+  src: url("futura-pt-bold.otf") format("opentype");
+}
+
+body, html {
+  background-color: #607d8b;
+  height: 100%;
+  /* margin: 0 auto; */
+}
+
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+header {
+  /* background-color: #171c28; */
+  background-color: #607d8b;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto 0px auto;
+  padding: 40px;
+}
+
+.main-nav {
+  /* width: 20%; */
+  display: flex;
+  flex-direction: row;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a {
+  margin-left: 20px;
+}
+
+.socials img {
+  /* margin-bottom: 20px; */
+  height: 50px;
+  width: auto;
+  transition: .3s;
+}
+
+#git, #in {
+  filter: brightness(0) invert(1);
+  transition: .3s;
+}
+
+#git:hover {
+  filter: brightness(0) invert(1) invert(.4);
+  transition: .3s;
+}
+
+#in:hover {
+  filter: brightness(0) invert(1) invert(.4);
+  transition: .3s;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  margin-right: 30px;
+  font-family: 'futura-pt-bold';
+  text-transform: uppercase;
+  /* padding-bottom: 5px; */
+  color: white;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.main-nav a:hover {
+  color: #ccac00;
+  transition: .3s;
+}
+
+a.selected {
+  color: #ccac00;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+.nametag {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.nametag a {
+  color: white;
+  font-family: 'futura';
+  font-weight: bold;
+  font-size: 72px;
+  text-decoration: none;
+  transition: .1s;
+}
+
+.nametag a:hover {
+  color: black;
+  transition: .1s;
+}
+
+.copyright {
+  margin-bottom: 40px;
+  margin-left: 60px;
+  color: black;
+  font-family: 'futura';
+  font-size: 16px;
+}
+
+footer {
+  font-family: "Futura", sans-serif;
+  color: #d3d3d3;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 40px 0px 40px;
+  padding-bottom: 30px;
+  align-items: flex-end;
+}

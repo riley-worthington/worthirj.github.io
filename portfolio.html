@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="night">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link href="styles/page.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <a href="about.html">About</a>
+        <a href="portfolio.html" class="selected">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <nav class="socials">
+        <a href="https://github.com/worthirj" title="GitHub link">
+          <img src="images/GitHub-Mark-120px-plus.png" alt="GitHub link" id="git"/>
+        </a>
+        <a href="https://linkedin.com/in/riley-worthington" title="LinkedIn link">
+          <img src="images/linkedin-128-black.png" alt="LinkedIn link" id="in"/>
+        </a>
+      </nav>
+    </header>
+    <main class="portfolio-container">
+      <h1 class="page-title">Selected Projects</h1>
+      <!-- <hr class="item-divider" /> -->
+      <article class="portfolio-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xYttAI0wONU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="caption">
+          <h2>Cat and Mouse</h2>
+          <div class="toolbox">
+            <div class="tool">
+              Python
+            </div>
+            <div class="tool">
+              NumPy
+            </div>
+            <div class="tool">
+              Pygame
+            </div>
+          </div>
+          <p>
+            Made in collaboration with two senior classmates and presented at the Whitman College Undergraduate Conference in 2018. We created a simulation of a cat and mouse chase with obstacles and equipped them with a variety of motion planning algorithms, including A*, Rapidly-exploring Random Trees (RRT), and Proportional Navigation. In the screen recording, the mice seek the goal in the top left corner using the RRT algorithm while the cat chases and attempts to capture them. Programmed in Python using the NumPy and Pygame libraries.
+          </p>
+        </div>
+      </article>
+      <hr class="item-divider" />
+      <article class="portfolio-item" style="align-items: center">
+        <div class="caption">
+          <h2>Primality Testing</h2>
+          <div class="toolbox">
+            <div class="tool">
+              Latex
+            </div>
+            <div class="tool">
+              Python
+            </div>
+          </div>
+          <p>
+            50 page research paper on primality testing including the 2002 AKS test, the first such algorithm found to have all four properties of general, deterministic, unconditional, and polynomial time. I explore the background of primality testing and other useful number theory algorithms and give an exposition and complexity analysis of AKS. Completed in spring 2018 for the math major senior project.
+          </p>
+          <a href="files/Primality_Testing_Final_Worthington.pdf" class="project-link">Read the paper here</a>
+          <a href="https://github.com/worthirj/primality-testing" class="project-link">See the code here</a>
+        </div>
+        <div style="max-width:560px">
+          <a href="files/Primality_Testing_Final_Worthington.pdf"><img style="width:100%; height:auto" src="images/aks.png" alt="Screenshot of primality testing algorithm explained in the paper"/></a>
+        </div>
+
+      </article>
+      <hr class="item-divider" />
+      <article class="portfolio-item">
+        <div style="max-width:560px">
+          <a href="https://github.com/whitman-books-online/whitman-books-online" title="Whitman Books Online"><img style="width:100%; height:auto" src="images/market_page.png" alt="Screenshot of Whitman Books Online marketplace page"/></a>
+        </div>
+        <div class="caption">
+          <h2>Whitman Books Online</h2>
+          <div class="toolbox">
+            <div class="tool">
+              HTML
+            </div>
+            <div class="tool">
+              CSS
+            </div>
+            <div class="tool">
+              JavaScript
+            </div>
+            <div class="tool">
+              React
+            </div>
+            <div class="tool">
+              Redux
+            </div>
+            <div class="tool">
+              Material-UI
+            </div>
+          </div>
+          <p>
+            Whitman Books Online is a web platform for student book sales on the Whitman College campus, created as a group project for the spring 2018 Software Engineering course. I worked on the front-end team to design and build the user interface, using Google's Material-UI library and the React framework. Pictured is a screenshot of the Exchange page, where books are posted for sale.
+          </p>
+          <a href="https://github.com/whitman-books-online/whitman-books-online" class="project-link">View source code on GitHub</a>
+        </div>
+      </article>
+    </main>
+    <div class="resume-box">
+      <div>
+        <h1>Resume Download</h1>
+      </div>
+      <div>
+        <a href="files/techresume3_0.rtf"><img src="images/rtf.png" class="resume-link"/></a>
+        <a href="files/worthington_riley.pdf"><img src="images/pdf.png" class="resume-link"/></a>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="icon-credit">
+        Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>.
+      </div>
+      <div class="nametag">
+        <a href="index.html">Riley.</a>
+      </div>
+    </footer>
+    <script src="scripts/portfolio.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
