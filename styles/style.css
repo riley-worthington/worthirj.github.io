@@ -117,6 +117,11 @@ footer {
 .nametag {
   margin-bottom: 40px;
   margin-right: 60px;
+  color: white;
+  font-family: 'futura';
+  font-weight: bold;
+  font-size: 94px;
+  text-decoration: none;
 }
 
 .nametag a {
